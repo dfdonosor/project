@@ -13,23 +13,18 @@ do
         fi
 done
 }
-
 function tl {                         #Function 1
 echo "Too low, try again"
 rv
 }
-
 function th {                         #Function 2
 echo "Too high, try again"
 rv
 }
-
-num=$( ls -a | wc -l )
+num=$( ls | wc -l )
 end=0
-
-echo "Guess the number of files this directory has."
+echo "Guess the number of files this directory has, not included the hidden files."
 rv
-
 while [[ $end -eq 0 ]]              #Loop
 do
 	if [[ $var1 -eq $num ]]     #If statement

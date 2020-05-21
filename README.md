@@ -1,5 +1,5 @@
 # Guessing Game
 - **Date and time:**
-mié 20 may 2020 23:15:48 -05
+jue 21 may 2020 12:17:51 -05
 - Number of lines of code contained in **guessinggame.sh**:
-34
+43
