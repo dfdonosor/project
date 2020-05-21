@@ -24,7 +24,7 @@ echo "Too high, try again"
 rv
 }
 
-num=$( ls | wc -l )
+num=$( ls -a | wc -l )
 end=0
 
 echo "Guess the number of files this directory has."
